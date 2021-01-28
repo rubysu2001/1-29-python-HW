@@ -2,6 +2,7 @@
 
 def list_arr(num):
 
+
   for i in range (len(num)):
   
     for j in range (len(num)-i-1):
@@ -11,6 +12,8 @@ def list_arr(num):
         num[j] , num[j+1] = num[j+1] , num[j]
         
   return num
+  
+  
 
 
 arr = input("")
